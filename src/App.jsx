@@ -6,8 +6,27 @@ import Courses from './components/Courses/Courses'
 
 function App() {
   const [cart,setCart]= useState([]);
+  const[totalHr, setTotalHr] = useState(0)
+  const [remaining, setRemaining] = useState(0)
+
   const handleAddToSelect = (title) =>{
-    setCart([...cart,title])
+    const isExist = cart.find(item =>item.id===title.id )
+    let count =title.credit;
+    if(isExist){
+      return alert("you can't add more")
+    }
+    else{
+      cart.forEach(item => {
+        count = count + item.credit
+        
+      });
+      const totalremaining = 20-count;
+      setTotalHr(count)
+      setRemaining(totalremaining)
+     
+      setCart([...cart,title])
+    }
+    
   }
 
   return (
@@ -15,7 +34,7 @@ function App() {
       <h1 className='text-5xl text-center font-bold'>Course Registration</h1>
       <div className='flex gap-2'>
         <Courses handleAddToSelect={handleAddToSelect}></Courses>
-        <Cart cart={cart}></Cart>
+        <Cart cart={cart} totalHr={totalHr} remaining={remaining} ></Cart>
       </div>
 
     </div>
