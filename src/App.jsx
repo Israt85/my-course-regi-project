@@ -15,7 +15,7 @@ function App() {
     const isExist = cart.find(item =>item.id===title.id )
     let count =title.credit;
     if(isExist){
-      return toast("You can't add more course!!")
+      return toast("You can't add this course more!!")
     }
     else{
       cart.forEach(item => {
@@ -38,7 +38,7 @@ function App() {
   return (
     <div className='max-w-full mx-auto my-8 px-4'>
       <h1 className='text-5xl text-center font-bold'>Course Registration</h1>
-      <div className='flex gap-2'>
+      <div className='w-4/3 h-4/3 flex gap-2'>
         <Courses handleAddToSelect={handleAddToSelect}></Courses>
         <Cart cart={cart} totalHr={totalHr} remaining={remaining} ></Cart>
       </div>
