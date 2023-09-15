@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Course from "../Course/Course";
 
-const Courses = () => {
+const Courses = ({handleAddToSelect}) => {
     const [courses, setCourses]= useState([]);
     useEffect(()=>{
         fetch('course.json')
@@ -14,7 +14,7 @@ const Courses = () => {
         <div>
             <div className="grid grid-cols-3">
             {
-                courses.map(course =><Course key={course.id} course={course}></Course> )
+                courses.map(course =><Course key={course.id} course={course} handleAddToSelect={handleAddToSelect}></Course> )
             }
             </div>
         </div>
