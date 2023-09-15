@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co/D8cNsmw/Rectangle-2.png",
+      "course_name": "Introduction to Computer Science",
+      "credit": 3,
+      "price": 250,
+      "details": "This course provides an introduction to the fundamentals of computer science, including programming, algorithms, and data structures."
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co/dD03tTr/Rectangle-2-3.png",
+      "course_name": "Data Structures and Algorithms",
+      "credit": 4,
+      "price": 350,
+      "details": "Learn about advanced data structures and algorithms, and how to apply them to solve real-world problems."
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co/Yjnx662/Rectangle-2-2.png",
+      "course_name": "Machine Learning",
+      "credit": 4,
+      "price": 450,
+      "details": "Explore the principles and techniques of machine learning, including supervised and unsupervised learning."
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co/LYJg9vX/Rectangle-2-1.png",
+      "course_name": "Web Development",
+      "credit": 3,
+      "price": 300,
+      "details": "Learn to build dynamic and interactive web applications using HTML, CSS, and JavaScript."
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co/2cRdxmG/Rectangle-2-4.png",
+      "course_name": "Artificial Intelligence",
+      "credit": 4,
+      "price": 400,
+      "details": "Explore the field of artificial intelligence, including natural language processing and computer vision."
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co/wzQwN5V/Rectangle-2-5.png",
+      "course_name": "Database Systems",
+      "credit": 3,
+      "price": 300,
+      "details": "Learn about database design, SQL, and how to build and maintain efficient database systems."
+    },
+    {
+      "id": 7,
+      "img": "https://i.ibb.co/cT9Zf2h/Rectangle-2-6.png",
+      "course_name": "Software Engineering",
+      "credit": 4,
+      "price": 350,
+      "details": "Study the principles and best practices of software engineering, including agile development methodologies."
+    },
+    {
+      "id": 8,
+      "img": "https://i.ibb.co/Pt9pjKH/Rectangle-3.png",
+      "course_name": "Computer Networks",
+      "credit": 4,
+      "price": 400,
+      "details": "Explore the fundamentals of computer networking, including protocols, routing, and network security."
+    },
+    {
+      "id": 9,
+      "img": "https://i.ibb.co/f9nSnXg/Rectangle-3-1.png",
+      "course_name": "Cybersecurity",
+      "credit": 3,
+      "price": 350,
+      "details": "Learn about cybersecurity threats, risk assessment, and how to protect computer systems and data."
+    }
+]
