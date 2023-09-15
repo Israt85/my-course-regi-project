@@ -36,9 +36,9 @@ function App() {
   }
 
   return (
-    <div className='max-w-full mx-auto my-8 px-4'>
+    <div className='max-w-7xl mx-auto my-8 px-4'>
       <h1 className='text-5xl text-center font-bold'>Course Registration</h1>
-      <div className='w-4/3 h-4/3 flex gap-2'>
+      <div className='flex gap-2'>
         <Courses handleAddToSelect={handleAddToSelect}></Courses>
         <Cart cart={cart} totalHr={totalHr} remaining={remaining} ></Cart>
       </div>
